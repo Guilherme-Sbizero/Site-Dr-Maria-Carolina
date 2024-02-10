@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    background-image: url(../ASSETS/fundo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#header {
+    background-color: rgba(30, 28, 28, 0.5);
+    padding: 1px;
+    color: white;
+}
+.titleLogo {
+    font-size: 2em;
+    letter-spacing: 10px;
+    text-align: left;
+    margin-left: 3%;
+    text-transform: uppercase;
+}
+span {
+    color: gold;
+}
+.textLogo {
+    font-size: 1em;
+    margin-left: 7%;
+    letter-spacing: 10px;
+    color: gold;
+    text-transform: uppercase;
+}
+.menu {
+    padding: 50px;
+    float: right;
+    margin-right: 1%;
+}
+a {
+    padding: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: gold;
+}
+#content {
+    margin: 1px;
+    padding: 10%;
+}
+.services {
+    margin: 1px;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: gold;
+}
+.text {
+    font-size: 1em;
+    color: white;
+}
+button {
+    letter-spacing: 3px;
+    width: 15%;
+    height: 30px;
+    background-color: gold;
+    color: black;
+    border: none;
+}
+button:hover {
+    background-color: rgb(221, 188, 7); 
+    cursor: pointer;
+}
+
+
+
